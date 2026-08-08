@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: '${SPRING_APP_NAME:springsecsection1}'
+  security:
+    user:
+      name: '${SECURITY_USERNAME:krishnath}'
+      password: '${SECURITY_PASSWORD:test12345}'
+logging:
+  level:
+    org.springframework.security: '${SPRING_SECURITY_LOG_LEVEL:TRACE}'
+  pattern:
+    console: '${LOGPATTERN_CONSOLE:%green(%d{HH:mm:ss.SSS}) %blue(%-5level) %red([%thread]) %yellow(%logger{15}) - %msg%n}'
