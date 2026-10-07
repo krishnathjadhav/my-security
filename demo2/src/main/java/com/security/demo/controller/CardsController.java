@@ -1,10 +1,8 @@
 package com.security.demo.controller;
 
-
 import com.security.demo.model.Cards;
 import com.security.demo.repository.CardsRepository;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;

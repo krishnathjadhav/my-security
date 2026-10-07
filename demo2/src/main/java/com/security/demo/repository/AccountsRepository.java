@@ -1,6 +1,5 @@
 package com.security.demo.repository;
 
-
 import com.security.demo.model.Accounts;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
